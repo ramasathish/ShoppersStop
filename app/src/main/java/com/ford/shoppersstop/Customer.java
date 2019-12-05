@@ -20,7 +20,9 @@ public class Customer {
         this.name = name;
         this.memberType = memberType;
     }
+    public Customer() {
 
+    }
     @Override
     public String toString() {
         return "Customer" +
